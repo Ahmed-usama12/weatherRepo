@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto&display=swap"
+        rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Forum&family=PT+Sans+Caption&family=Pacifico&family=Righteous&display=swap"
+            rel="stylesheet">
+</head>
+
+<body>
+
+    <section id="home">
+
+        <div class="myHome">
+            <div class="homePhoto">
+                <img src="images/banner.png" class="w-100 ">
+            </div>
+
+            <div class="content w-75 mx-auto ">
+                <div class="searchBar d-flex justify-content-between align-items-center">
+                    <input type="text" class="form-control  mx-auto my-4 py-2" placeholder="Find Your Location"
+                        id="searchCity">
+                    <button class="btn btn-outline-light" type="submit" onclick="searchLocation()">Find</button>
+                </div>
+
+
+                <div class="container py-5">
+                    <div class="row">
+
+                        <div class="col-md-4 mb-4 rounded-4 today">
+
+                        </div>
+
+                        <div class="col-md-4 mb-4 rounded-4 towmorrow py-4 text-center">
+
+                        </div>
+
+                        <div class="col-md-4  mb-4 afTowmorrow rounded-4 py-4 text-center">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

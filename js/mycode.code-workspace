@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../mycode"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AssignmentJs"
+	}
+}

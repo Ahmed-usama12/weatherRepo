@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar a {
+    color: whitesmoke;
+}
+
+.homeLi a {
+    color: #009ad8;
+}
+
+.myHome {
+    background-color: #1e202b;
+    /* height: 80vh; */
+    /* background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center center; */
+    /* padding: 70px 0; */
+}
+
+.homePhoto img {
+    min-height: 350px;
+}
+
+.temp {
+    color: #fff;
+    padding: 20px;
+}
+
+.temp img {
+    width: 35%;
+}
+
+.temp h1 {
+    font-size: 90px;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.head h4 {
+    color: #fff;
+    font-size: 14px;
+}
+
+.towmorrowTemp h3 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.towmorrowTemp small {
+    color: #BFC1C8;
+}
+
+.towmorrowStatus p {
+    color: #009AD8;
+}
+
+.towmorrowName {
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    width: 100%;
+    color: #BFC1C8;
+
+}
+
+.aftowmorrowTemp h3 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.aftowmorrowTemp small {
+    color: #BFC1C8;
+}
+
+.aftowmorrowStatus p {
+    color: #009AD8;
+}
+
+.aftowmorrowName {
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    width: 100%;
+    color: #BFC1C8;
+
+}
+.towmorrow{
+    background-color: #262936;
+}
+.afTowmorrow,.today{
+    background-color: #343e75;;
+}
+.head h4{
+    color: #BFC1C8;
+}
+.weatherStatus{
+    color: #009AD8;
+
+}
+.today span{
+    color: #BFC1C8;
+}
+.searchBar input{
+    width: 95%;
+}
+.searchBar button{
+    padding: 8px 25px;
+    margin-left: 10px;
+}
